@@ -1,0 +1,38 @@
+{
+    "name":"exploder",
+    "version":"0.0.0",
+    "author":"",
+    "location":"sethstone/exploder#v0.0.0",
+    "homepage":"https://github.com/sethstone/exploder",
+    "documentation":"https://github.com/sethstone/exploder",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/sethstone/exploder"
+    },
+    "bugs":"https://github.com/sethstone/exploder/issues",
+    "slug":"exploder",
+    "shortDescription":"Blow stuff up",
+    "description":"Blow stuff up",
+    "type":"modules",
+    "dependencies":{
+        
+    },
+    "devDependencies":{
+        "coldbox":"^4.3.0+188",
+        "testbox":"^2.4.0+80"
+    },
+    "installPaths":{
+        "testbox":"testbox",
+        "coldbox":"tests\\resources\\app\\coldbox"
+    },
+    "scripts":{
+        "postVersion":"package set location='sethstone/exploder#v`package version`'",
+        "onRelease":"publish",
+        "postPublish":"!git push && !git push --tags"
+    },
+    "ignore":[
+        "**/.*",
+        "test",
+        "tests"
+    ]
+}
