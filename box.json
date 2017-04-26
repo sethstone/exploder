@@ -1,8 +1,8 @@
 {
     "name":"exploder",
-    "version":"0.0.1",
+    "version":"0.0.2",
     "author":"",
-    "location":"sethstone/exploder#v0.0.1",
+    "location":"sethstone/exploder#v0.0.2",
     "homepage":"https://github.com/sethstone/exploder",
     "documentation":"https://github.com/sethstone/exploder",
     "repository":{
@@ -13,7 +13,7 @@
     "slug":"exploder",
     "shortDescription":"Blow stuff up",
     "description":"Blow stuff up",
-    "type":"modules",
+    "type":"commandbox-modules",
     "dependencies":{
         
     },
